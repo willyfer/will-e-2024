@@ -7,7 +7,7 @@ export const theme = extendTheme({
     light: {
       palette: {
         wellow: {
-          solidBg: '#FFCC72', // Verde personalizado
+          solidBg: '#FEBB45', // Verde personalizado
           solidHoverBg: '#FEBB45',
           solidColor: '#fff'
         },
@@ -21,7 +21,7 @@ export const theme = extendTheme({
     dark: {
       palette: {
         wellow: {
-          solidBg: '#FFCC72', // Verde personalizado
+          solidBg: '#FEBB45', // Verde personalizado
           solidHoverBg: '#FEBB45',
           solidColor: '#fff'
         },

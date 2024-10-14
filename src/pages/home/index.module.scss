@@ -4,7 +4,6 @@
     background-size: contain;
     position: absolute;
     top: 0;
-    
 }
 
 .bgBlue{
@@ -32,7 +31,15 @@
         text-align: center;
         align-items: center;
         justify-items: center;
-       
+        div{ 
+            margin-top: 20px;
+            align-items: center;
+            gap: 20px;
+           svg{
+            padding-left: 20px;
+            padding-right: 20px;
+           }
+        }
     }
     .section1_desc{
         padding-top: 2rem;
@@ -48,5 +55,51 @@
             font-weight: 600;
             color: var(--joy-palette-wBlue-solidBg);
         }
+        &__description{
+            margin-top: 2rem;
+            font-size: 18px;
+            color: white;
+            width: 50%;
+           
+        }
+         &__btns{
+            width: 30%;
+            margin: 1rem 0;
+         }
+         &__experience{
+            margin-top: 9rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            div{
+                display: flex;   
+            }
+         }
     }
+}
+.btnContact{
+    background: var(--joy-palette-wellow-solidBg) !important;
+    color: black !important;
+}
+
+.iconSocialMedia{
+    color:var(--joy-palette-wellow-solidBg) !important;
+    width: 40px;
+}
+.nbr{
+    font-size: 4rem;
+    color:var(--joy-palette-wellow-solidBg) !important;
+    font-weight: 600;
+    padding-right: 15px;
+}
+.label_exp{
+    padding-top: 20px;
+    font-size: 20px;
+    color: var(--joy-palette-wBlue-solidBg) !important;;
+}
+.bgBlueDark{
+    background-color: rgba(19, 22, 31, 0.95);
+    width: 100%;
+    min-height: 330px;
+    top: 18%;
+    position: absolute;
 }
